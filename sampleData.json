@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Gulambha",
+    "age": 455,
+    "heigth": 9.6,
+    "strength Scale": 8
+  },
+
+  { "name": "Madan", "age": 395, "heigth": 6.6, "strength Scale": 7.5 },
+  {
+    "name": "Ajam",
+    "age": 605,
+    "heigth": 11.6,
+    "strength Scale": 9.8
+  }
+]
