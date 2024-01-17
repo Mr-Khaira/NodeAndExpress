@@ -30,7 +30,7 @@ function makePizza(dough) {
 
 getCheese()
   .then((cheese) => {
-    return makeDough(cheese); // we are returning the proise of the make dough here.
+    return makeDough(cheese); // we are returning the promise of the make dough here.
   })
   .then((dough) => {
     return makePizza(dough);
