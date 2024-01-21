@@ -1,0 +1,19 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "description": "I am learning js and I will see it through indeed.",
+  "main": "1-globals.js",
+  "scripts": {
+    "start": "node 13-installedDepnUsage.js",
+    "nodemon-app": "nodemon 13-installedDepnUsage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "dotenv": "^16.3.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.3"
+  }
+}
