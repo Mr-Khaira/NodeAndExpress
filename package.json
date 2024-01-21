@@ -5,7 +5,7 @@
   "main": "1-globals.js",
   "scripts": {
     "start": "node 13-installedDepnUsage.js",
-    "nodemon-app": "nodemon 13-installedDepnUsage.js"
+    "nodemon-app": "nodemon 14-AsyncPattern.js"
   },
   "keywords": [],
   "author": "",
