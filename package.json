@@ -2,17 +2,19 @@
   "name": "javascript-practice",
   "version": "1.0.0",
   "description": "I am learning js and I will see it through indeed.",
-  "main": "1-globals.js",
+  "main": "0-index.js",
   "scripts": {
-    "start": "node 13-installedDepnUsage.js",
-    "nodemon-app": "nodemon 14-AsyncPattern.js"
+    "start": "node 0-index.js",
+    "nodemon-app": "nodemon 0-index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Harkaran Singh Khaira",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.2",
     "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "Express": "^3.0.1",
     "lodash": "^4.17.21",
     "nodemon": "^3.0.3"
   }
