@@ -1,18 +1,21 @@
-// In any URL(api) after the question mark are the query parameters.
 const express = require("express");
 const app = express();
-const path = require("path");
-const logger = require("./Utilities/middlewareFunctions");
 
-app.use(logger); // This is how we implement a mdw to all the routes that there are.
+let { people } = require("./Utilities/sampleDataExProducts");
 
-//______"api", middleware, (req,res) - putting mdw like this is called referencing.
-app.get("/", logger, (req, res) => {
-  res.status(200).send("Home page"); // This might not matter if we send response in the mdw function.
+app.use(express.static(__dirname));
+
+// In order to get access to the form data we are going to use a express built in middleware named urlencoded().
+
+app.use(express.urlencoded({ extended: false })); // This will allow us to access the form data, in the req body.
+
+app.get("/api/people", (req, res) => {
+  res.status(200).json({ success: true, data: people });
 });
 
-app.get("/about", (req, res) => {
-  res.status(200).send("About page");
+app.post("/login", (req, res) => {
+  console.log(req.body);
+  res.send("This is a response.");
 });
 
 app.listen(8080, () => {
