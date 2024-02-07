@@ -1,3 +1,4 @@
+// Put and delete generally work best with an actual database, and that would be done soon.
 const express = require("express");
 const app = express();
 
@@ -7,32 +8,6 @@ app.use(express.static(__dirname));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-
-app.get("/api/people", (req, res) => {
-  res.status(200).json({ success: true, data: people });
-});
-
-app.post("/api/people", (req, res) => {
-  console.log(req.body);
-  const { login } = req.body;
-  console.log(login);
-  if (!login) {
-    return res
-      .status(400)
-      .json({ success: false, msg: "Please provide a login." });
-  }
-  res.status(201).send({ success: true, person: login });
-});
-
-app.post("/login", (req, res) => {
-  console.log(req.body);
-  const { login } = req.body;
-
-  if (login) {
-    return res.status(200).send(`Welcome ${login}`);
-  }
-  res.status(401).send("Please enter credentials");
-});
 
 app.put("/api/people/:id", (req, res) => {
   const { id } = req.params;
