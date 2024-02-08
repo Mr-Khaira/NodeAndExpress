@@ -22,3 +22,7 @@ readFile("./Fundamentals-P1/first.txt", "utf8", (err, data) => {
     console.log("Inside the async readFile function.");
   }
 });
+
+// It mostly depends on the use case which one to use, but Asynchronous is preferred
+// in most cases, because nebody wants the whole application to wait for single
+// process.

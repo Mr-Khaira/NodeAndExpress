@@ -16,7 +16,8 @@ const server = http.createServer((req, res) => {
   }
 });
 
-// The blocking code above will not only block the user who navigates to the about page, but all the users of our website.
+// The blocking code above will not only block the user who navigates to the about page,
+// but all the users of our website.
 
 server.listen(5000, () => {
   console.log("Listening at 5000");

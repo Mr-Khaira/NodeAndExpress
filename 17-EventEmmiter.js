@@ -1,7 +1,8 @@
 const EventEmitter = require("events");
 // Wahts returned is a class.
 
-const customEmitter = new EventEmitter(); // EE() is a cunstroctor function, cE is now an object.
+const customEmitter = new EventEmitter(); // EE() is a cunstroctor function, cE is now
+//an object.
 
 /* on - listen to an event 
    emit - emit an event

@@ -16,10 +16,11 @@ function addition(a, b) {
   return a + b;
 }
 
-calculation(9, 8, addition); // putting brackets after addition will call the function, tp pass it just write the name of the function.
+calculation(9, 8, addition); // putting brackets after addition will call the function,
+//to pass it just write the name of the function.
 
 // So practically it is used at event handling.
 // And some array function as, .find(functionHere), .findIndex(functionHere) etc.
-// Aslo in forEach().
+// Also in forEach().
 
 console.log(result);

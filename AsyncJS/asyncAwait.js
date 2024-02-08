@@ -1,4 +1,5 @@
-// we put 'async' keyword in front of the function, and then we can male the code inside of the function wait until certain conditions are met, using the await keyword.
+// we put 'async' keyword in front of the function, and then we can make the code inside
+//of the function wait until certain conditions are met, using the await keyword.
 
 function getCheese() {
   return new Promise((resolve, reject) => {

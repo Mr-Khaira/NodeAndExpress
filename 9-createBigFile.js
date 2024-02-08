@@ -7,7 +7,10 @@ for (let i = 0; i < 10000; i++) {
   });
 }
 
-The issue with your code is that you are using a loop to asynchronously write to a file inside each iteration. However, the loop doesn't wait for the asynchronous writeFile operation to complete before moving on to the next iteration. This can lead to unexpected behavior.
+The issue with the code is that we are using a loop to asynchronously write to a file 
+inside each iteration. However, the loop doesn't wait for the asynchronous writeFile 
+operation to complete before moving on to the next iteration. This can lead to 
+unexpected behavior.
 */
 
 for (let i = 0; i < 10000; i++) {

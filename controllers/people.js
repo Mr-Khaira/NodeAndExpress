@@ -1,5 +1,9 @@
 let { people } = require("../Utilities/sampleDataExProducts");
 
+/*Here we have stored our functions in a js file, these are the dunctions that 
+are used in the routes, hence they have been exposred.
+*/
+
 const getPeople = (req, res) => {
   res.status(200).json({ success: true, data: people });
 };

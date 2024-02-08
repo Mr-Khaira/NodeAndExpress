@@ -1,3 +1,6 @@
+// This is the base file for starting the server, everything in the other files was
+// first implemented here and only then have been saved in a separate file for record.
+
 const express = require("express");
 const app = express();
 const people = require("./route/people");

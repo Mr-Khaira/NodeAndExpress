@@ -17,5 +17,6 @@ const server = http.createServer(function (req, res) {
 server.listen(5000);
 
 /*
-Not only will the data be read in chuncks, but also be send in chuncks, so that it can be send easily, this is done by fileStream.pipe() .
+Not only will the data be read in chuncks, but also be send in chuncks, so that it can 
+be send easily, this is done by fileStream.pipe() .
 */

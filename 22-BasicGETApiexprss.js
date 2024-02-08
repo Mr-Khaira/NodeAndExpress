@@ -19,7 +19,12 @@ app.get("/api/products", (req, res) => {
   res.json(productsDisplay);
 });
 
-// 3. We also have something called as rout parameter, and it is needed because, for instance we want to access the oroduct with id 1 and so on, we are not going to set the route for each and every product, hanve we have a variable in the route api, we can think of it as a placeholder. We find it as 'params' in the req body.
+/* 3. We also have something called as rout parameter, and it is needed because, for 
+instance we want to access the oroduct with id 1 and so on, we are not going to set the
+ route for each and every product, hanve we have a variable in the route api, we can 
+ think of it as a placeholder. We find it as 'params' in the req body.
+ 
+*/
 
 app.get("/api/products/:prodID", (req, res) => {
   //console.log(req);

@@ -21,4 +21,6 @@ fileStream.on("data", (reslut) => {
 fileStream.on("error", (result) => {
   console.log(result);
 });
-// The data is read in chuncks, by default that chunck is 64kb(can be changed with highWaterMark), and at the end the remainder is given be it whatever amount less than 64kb. Encoding format can also be set.
+// The data is read in chuncks, by default that chunck is 64kb(can be changed with
+//highWaterMark), and at the end the remainder is given be it whatever amount less than
+//64kb. Encoding format can also be set.

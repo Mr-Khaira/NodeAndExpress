@@ -10,4 +10,5 @@ const newFile = writeFileSync(
   `${first} Jai SiaRam Jai SiaRam`,
   { flag: "a" }
 );
-// WriteFileSync over writes the file content, if we want to append we have to pass one more argument, that would be -{flag: "a"}
+// WriteFileSync over writes the file content, if we want to append we have to pass one
+// more argument, that would be -{flag: "a"}
