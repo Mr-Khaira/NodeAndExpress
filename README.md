@@ -32,7 +32,7 @@ Thank you for visiting!
 
 ### Coming Soon
 
-Stay tuned for more updates! I'm currently working on expanding my skill set repository with real-world project examples.
+Stay tuned for more updates! I'm currently working on expanding my skill set and repositories with real-world project examples would be added soon.
 
 ### Contact
 
